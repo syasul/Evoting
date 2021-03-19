@@ -1,0 +1,65 @@
+body{
+	font-family: 'Scada', sans-serif;
+	scroll-behavior: smooth;
+}
+.navbar{
+	min-height: 50px;
+}
+.active{
+	color: #007bff !important;
+	border-bottom: 3px solid #d5e91e;
+}
+.sec1{
+	min-height: 480px;
+	margin-top: 90px;
+}
+.img{
+	min-height: 100px;
+	margin-top: 2%;
+	width: 490px;
+	height: 400px;
+}
+.arrow{
+	width: 20px;
+}
+.sec2{
+	min-height: 480px;
+	margin-top: 70px;
+}
+.sec2 p{
+	font-weight: bold;
+	text-align: center;
+	color: #007bff;
+	font-size: 50px;
+}
+
+footer {
+    background: #1A1E25;
+    color: #868c96;
+    margin-top: 5%;
+    margin-bottom: -2%;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+
+
+
+/*responsive*/
+@media screen and(max-width: 400px){
+	.h2-sec1{
+		text-align: center;
+	}
+	.p-sec1{
+		margin-left: -100px;
+	}
+	.a-sec1{
+		margin-left: 18%;
+	}
+}
